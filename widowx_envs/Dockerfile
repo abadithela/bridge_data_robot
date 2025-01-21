@@ -71,7 +71,7 @@ ENV PYTHONPATH="${PYTHONPATH}:/home/${USER_ID}/interbotix_ws/src/widowx_envs"
 ENV ROBONETV2_ARM=wx250s
 ENV DATA=/home/robonet/trainingdata
 ENV EXP=/home/robonet/experiments
-ENV REALSENSE_SERIAL=920312072629
+ENV REALSENSE_SERIAL=244222071650
 
 # build interbox ros packages
 RUN source /opt/ros/noetic/setup.bash \
@@ -98,3 +98,7 @@ RUN git clone https://github.com/youliangtan/edgeml && \
 # Create alias to python3 widowx_envs/widowx_envs/widowx_env_service.py
 # This is a workaround for pip3 install -e .
 RUN echo 'alias widowx_env_service="python3 ~/widowx_envs/widowx_envs/widowx_env_service.py"' >> ~/.bashrc
+
+
+###################################3333
+# ChatGPT version
